@@ -41,6 +41,8 @@ export interface ItemRequestForAll {
 export interface AddItem {
     group_id: string;
     item_id: string;
+    title: string;
+    hash: string;
 }
 
 export interface DeleteItem {

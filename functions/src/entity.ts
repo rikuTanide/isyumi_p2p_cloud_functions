@@ -6,7 +6,9 @@ export interface Group {
 export interface Item {
     group_id: string;
     item_id: string;
-    title?: string;
+    title: string;
+    publish_user_id: string;
+    hash: string;
 }
 
 export interface Member {
